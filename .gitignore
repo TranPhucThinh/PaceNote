@@ -1,0 +1,16 @@
+# Dependencies
+**/node_modules/
+
+# Build output and generated files
+backend/dist/
+frontend/build/
+frontend/.react-router/
+
+# Local environment and OS files
+**/.env
+**/.env.*
+!.env.example
+**/.DS_Store
+
+# Local agent workspace metadata
+frontend/.agents/
